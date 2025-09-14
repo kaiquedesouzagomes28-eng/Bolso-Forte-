@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Bolso Forte – Guia da Economia Inteligente: aprenda a organizar finanças, economizar e investir de forma simples.">
+  <title>Bolso Forte – Guia da Economia Inteligente</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="assets/favicon.png" type="image/png">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <h1>Bolso Forte</h1>
+      <nav>
+        <ul>
+          <li><a href="#beneficios">Benefícios</a></li>
+          <li><a href="#como-funciona">Como Funciona</a></li>
+          <li><a href="#depoimentos">Depoimentos</a></li>
+          <li><a href="#download">Download</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h2>Transforme sua vida financeira</h2>
+      <p>Aprenda a organizar suas finanças, economizar e investir sem complicação.</p>
+      <a href="#download" class="btn">Baixar Agora</a>
+    </div>
+  </section>
+
+  <!-- Benefícios -->
+  <section id="beneficios">
+    <div class="container">
+      <h2>Benefícios do Bolso Forte</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Controle Total</h3>
+          <p>Organize seu orçamento sem planilhas complicadas.</p>
+        </div>
+        <div class="card">
+          <h3>Economia Real</h3>
+          <p>Aprenda técnicas simples para cortar gastos desnecessários.</p>
+        </div>
+        <div class="card">
+          <h3>Investimento Inteligente</h3>
+          <p>Comece a investir de forma prática e segura, passo a passo.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Como Funciona -->
+  <section id="como-funciona">
+    <div class="container">
+      <h2>Como Funciona</h2>
+      <p>O Bolso Forte guia você em etapas simples: organizar, economizar e investir, sem jargões ou complicações.</p>
+      <ul>
+        <li>1. Analisar seus gastos atuais.</li>
+        <li>2. Criar um plano de economia personalizado.</li>
+        <li>3. Aprender a investir de forma segura.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Depoimentos -->
+  <section id="depoimentos">
+    <div class="container">
+      <h2>O que dizem nossos leitores</h2>
+      <div class="testimonial">
+        <p>"Finalmente consegui controlar meu dinheiro e começar a investir. Recomendo!"</p>
+        <span>- Mariana S.</span>
+      </div>
+      <div class="testimonial">
+        <p>"Conteúdo simples e direto. Mudou minha forma de pensar sobre finanças."</p>
+        <span>- Carlos R.</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Download CTA -->
+  <section id="download">
+    <div class="container">
+      <h2>Baixe seu e-book agora</h2>
+      <p>Comece a transformar suas finanças hoje mesmo.</p>
+      <a href="assets/bolso-forte.pdf" class="btn">Baixar E-book</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Bolso Forte. Todos os direitos reservados.</p>
+      <p>Contato: contato@bolsoforte.com.br</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Container */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Header */
+header {
+  background: #1E3A8A;
+  color: #fff;
+  padding: 20px 0;
+}
+header h1 {
+  display: inline-block;
+  margin-left: 20px;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+header nav ul li {
+  margin-left: 20px;
+}
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Hero */
+.hero {
+  background: #3B82F6;
+  color: #fff;
+  text-align: center;
+  padding: 80px 20px;
+}
+.hero .btn {
+  display: inline-block;
+  padding: 15px 30px;
+  background: #FBBF24;
+  color: #000;
+  text-decoration: none;
+  margin-top: 20px;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+.hero .btn:hover {
+  background: #F59E0B;
+}
+
+/* Seções */
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.card {
+  background: #EFF6FF;
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1 1 250px;
+}
+.testimonial {
+  background: #DBEAFE;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+/* Footer */
+footer {
+  background: #1E3A8A;
+  color: #fff;
+  padding: 20px 0;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  header nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  header nav ul li {
+    margin: 10px 0;
+  }
+  .cards {
+    flex-direction: column;
+  }
+}
+// Scroll suave para links internos
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function(e) {
+    e.preventDefault();
+    document.querySelector(this.getAttribute('href')).scrollIntoView({
+      behavior: 'smooth'
+    });
+  });
+});
+bolso-forte/
+├─ index.html
+├─ style.css
+├─ script.js
+├─ assets/
+│   ├─ bolso-forte.pdf
+│   └─ favicon.png
+└─ README.md
